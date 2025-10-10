@@ -239,7 +239,7 @@
 
                                     <p>You are not allowed to redistribute this template ZIP file on any other template collection website. Please contact TemplateMo for more information.</p>
 
-                                    <img src="images/portrait-mature-smiling-authoress-sitting-desk.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/portrait-mature-smiling-authoress-sitting-desk.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="">
 
                                     <p>You may want to contact us for more information about this template.</p>
                                 </div>
@@ -471,13 +471,5 @@
                 </div>
             </section>
         </main>
-
-        <!-- JAVASCRIPT FILES -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery.sticky.js"></script>
-        <script src="js/click-scroll.js"></script>
-        <script src="js/custom.js"></script>
-
     </body>
 </html>
