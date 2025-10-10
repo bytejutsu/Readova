@@ -22,10 +22,10 @@ function readova_scripts() {
     wp_enqueue_script('jquery');
 
     // --- Other scripts ---
-    wp_enqueue_script('readova-bootstrap-js', get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array('jquery2'), null, true);
-    wp_enqueue_script('readova-sticky-js', get_template_directory_uri() . '/js/jquery.sticky.js', array('jquery2'), null, true);
-    wp_enqueue_script('readova-click-scroll-js', get_template_directory_uri() . '/js/click-scroll.js', array(), null, true);
-    wp_enqueue_script('readova-custom-js', get_template_directory_uri() . '/js/custom.js', array(), null, true);
+    wp_enqueue_script('readova-bootstrap-js', get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array('jquery'), null, true);
+    wp_enqueue_script('readova-sticky-js', get_template_directory_uri() . '/js/jquery.sticky.js', array('jquery'), null, true);
+    wp_enqueue_script('readova-click-scroll-js', get_template_directory_uri() . '/js/click-scroll.js', array('jquery'), null, true);
+    wp_enqueue_script('readova-custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery'), null, true);
 
 }
 
