@@ -78,7 +78,7 @@
                         </div>
 
                         <div class="hero-image-wrap col-lg-6 col-12 mt-3 mt-lg-0">
-                            <img src="images/education-online-books.png" class="hero-image img-fluid" alt="education online books">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/education-online-books.png" class="hero-image img-fluid" alt="education online books">
                         </div>
 
                     </div>
@@ -92,13 +92,13 @@
 
                         <div class="col-lg-8 col-12">
                             <div class="avatar-group d-flex flex-wrap align-items-center">
-                                <img src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg" class="img-fluid avatar-image" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg" class="img-fluid avatar-image" alt="">
 
-                                <img src="images/avatar/portrait-young-redhead-bearded-male.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/portrait-young-redhead-bearded-male.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
 
-                                <img src="images/avatar/pretty-blonde-woman.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/pretty-blonde-woman.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
 
-                                <img src="images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
 
                                 <div class="reviews-group mt-3 mt-lg-0">
                                     <strong>4.5</strong>
@@ -126,7 +126,7 @@
                     <div class="row">
 
                         <div class="col-lg-6 col-12">
-                            <img src="images/tablet-screen-contents.jpg" class="img-fluid" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/tablet-screen-contents.jpg" class="img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-6 col-12">
@@ -198,11 +198,11 @@
 
                                     <div class="row">
                                         <div class="col-lg-6 col-12 mb-3">
-                                            <img src="images/portrait-mature-smiling-authoress-sitting-desk.jpg" class="scrollspy-example-item-image img-fluid" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/portrait-mature-smiling-authoress-sitting-desk.jpg" class="scrollspy-example-item-image img-fluid" alt="">
                                         </div>
 
                                         <div class="col-lg-6 col-12 mb-3">
-                                            <img src="images/businessman-sitting-by-table-cafe.jpg" class="scrollspy-example-item-image img-fluid" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/businessman-sitting-by-table-cafe.jpg" class="scrollspy-example-item-image img-fluid" alt="">
                                         </div>
                                     </div>
 
@@ -219,7 +219,7 @@
 
                                     <div class="row align-items-center">
                                         <div class="col-lg-6 col-12">
-                                            <img src="images/tablet-screen-contents.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/tablet-screen-contents.jpg" class="img-fluid" alt="">
                                         </div>
 
                                         <div class="col-lg-6 col-12">
@@ -270,7 +270,7 @@
                     <div class="row">
 
                         <div class="col-lg-6 col-12">
-                            <img src="images/portrait-mature-smiling-authoress-sitting-desk.jpg" class="author-image img-fluid" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/portrait-mature-smiling-authoress-sitting-desk.jpg" class="author-image img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-6 col-12 mt-5 mt-lg-0">
@@ -301,7 +301,7 @@
                         <div class="col-lg-4 col-12">
                             <div class="custom-block d-flex flex-wrap">
                                 <div class="custom-block-image-wrap d-flex flex-column">
-                                    <img src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg" class="img-fluid avatar-image" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg" class="img-fluid avatar-image" alt="">
 
                                     <div class="text-center mt-3">
                                         <span class="text-white">Sandy</span>
@@ -329,7 +329,7 @@
                         <div class="col-lg-4 col-12 my-5 my-lg-0">
                             <div class="custom-block d-flex flex-wrap">
                                 <div class="custom-block-image-wrap d-flex flex-column">
-                                    <img src="images/avatar/portrait-young-redhead-bearded-male.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/portrait-young-redhead-bearded-male.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
 
                                     <div class="text-center mt-3">
                                         <span class="text-white">John</span>
@@ -357,7 +357,7 @@
                         <div class="col-lg-4 col-12">
                             <div class="custom-block d-flex flex-wrap">
                                 <div class="custom-block-image-wrap d-flex flex-column">
-                                    <img src="images/avatar/pretty-blonde-woman.jpg" class="img-fluid avatar-image" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/pretty-blonde-woman.jpg" class="img-fluid avatar-image" alt="">
 
                                     <div class="text-center mt-3">
                                         <span class="text-white">Candy</span>
