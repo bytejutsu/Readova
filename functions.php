@@ -12,7 +12,7 @@ function readova_scripts() {
 
     wp_register_script(
         'jquery',
-        get_template_directory_uri() . '/js/jquery-2.2.3.min.js',
+        get_template_directory_uri() . '/js/jquery.min.js',
         array(),
         '2.2.3',
         true
