@@ -150,29 +150,10 @@
             <section>
                 <div class="container">
                     <div class="row">
-
                         <div class="col-lg-12 col-12 text-center">
                             <h6>What's inside?</h6>
-
                             <h2 class="mb-5">Preview at glance</h2>
                         </div>
-
-                        <div class="col-lg-4 col-12">
-                            <nav id="navbar-example3" class="h-100 flex-column align-items-stretch">
-                                <nav class="nav nav-pills flex-column">
-                                    <a class="nav-link smoothscroll" href="#item-1">Introduction</a>
-
-                                    <a class="nav-link smoothscroll" href="#item-2">Chapter 1: <strong>Win back your time</strong></a>
-
-                                    <a class="nav-link smoothscroll" href="#item-3">Chapter 2: <strong>Work less, do more</strong></a>
-
-                                    <a class="nav-link smoothscroll" href="#item-4">Chapter 3: <strong>Delegate</strong></a>
-
-                                    <a class="nav-link smoothscroll" href="#item-5">Chapter 4: <strong>Habits</strong></a>
-                                </nav>
-                            </nav>
-                        </div>
-
                         <div class="col-lg-8 col-12">
                             <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
                                 <div class="scrollspy-example-item" id="item-1">
@@ -259,8 +240,19 @@
                                 </div>
                             </div>
                         </div>
-
+                        <div class="col-lg-4 col-12">
+                            <nav class="timeline-container">
+                                <nav class="nav-pills timeline">
+                                    <a class="nav-link smoothscroll" href="#item-1">Introduction</a>
+                                    <a class="nav-link smoothscroll" href="#item-2">Chapter 1: <strong>Win back your time</strong></a>
+                                    <a class="nav-link smoothscroll" href="#item-3">Chapter 2: <strong>Work less, do more</strong></a>
+                                    <a class="nav-link smoothscroll" href="#item-4">Chapter 3: <strong>Delegate</strong></a>
+                                    <a class="nav-link smoothscroll" href="#item-5">Chapter 4: <strong>Habits</strong></a>
+                                </nav>
+                            </nav>
+                        </div>
                     </div>
+
                 </div>
             </section>
 

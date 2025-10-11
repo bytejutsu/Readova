@@ -11,6 +11,7 @@
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --link-hover-color:             #6D986E;
+  --site-footer-bg-color:         #002D66;
 
   --body-font-family:             'Unbounded', sans-serif;
 
@@ -684,29 +685,88 @@ strong {
   padding-left: 40px;
 }
 
-.nav-pills {
-  border: 2px solid var(--primary-color);
-  border-radius: var(--border-radius-medium);
+/* Container to make it scrollable */
+.timeline-container {
+  height: 100vh;
   position: sticky;
-  top: 120px;
-  padding: 30px;
+  top: 100px;
 }
 
-.nav-pills .nav-link {
-  background: var(--section-bg-color);
-  color: var(--p-color);
-  border-radius: var(--border-radius-large);
-  margin-top: 5px;
-  margin-bottom: 10px;
-  padding: 15px 30px;
+/* Base nav style */
+.nav-pills.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: none;
+  padding-left: 40px;
 }
 
-.nav-pills .nav-link:hover,
-.nav-pills .nav-link.active, 
-.nav-pills .show>.nav-link {
-  background: var(--primary-color);
-  color: var(--white-color);
+/* Vertical line */
+.nav-pills.timeline::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--primary-color, #007bff);
+  border-radius: 2px;
 }
+
+/* Each link becomes a timeline point */
+.nav-pills.timeline .nav-link {
+  position: relative;
+  background: var(--section-bg-color, #f9f9f9);
+  color: var(--p-color, #333);
+  border-radius: var(--border-radius-large, 8px);
+  margin: 10px 0;
+  padding: 15px 25px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+/* Add circle marker for each link */
+.nav-pills.timeline .nav-link::before {
+  content: "";
+  position: absolute;
+  left: -27px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  background: var(--primary-color, #007bff);
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 2px var(--primary-color, #007bff);
+  z-index: 1;
+}
+
+/* Hover + Active states */
+.nav-pills.timeline .nav-link:hover,
+.nav-pills.timeline .nav-link.active {
+  background: var(--primary-color, #007bff);
+  color: var(--white-color, #fff);
+}
+
+/* Highlight active marker */
+.nav-pills.timeline .nav-link.active::before {
+  background: var(--white-color, #fff);
+  box-shadow: 0 0 0 3px var(--primary-color, #007bff);
+}
+
+/* Scrollbar styling (optional) */
+.timeline-container::-webkit-scrollbar {
+  width: 6px;
+}
+.timeline-container::-webkit-scrollbar-thumb {
+  background: var(--primary-color, #007bff);
+  border-radius: 10px;
+}
+.timeline-container::-webkit-scrollbar-track {
+  background: #eee;
+}
+
 
 .scrollspy-example-2 {
   padding-right: 30px;
