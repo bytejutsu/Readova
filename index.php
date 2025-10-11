@@ -126,7 +126,7 @@
                     <div class="row">
 
                         <div class="col-lg-6 col-12">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/tablet-screen-contents.jpg" class="img-fluid" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/ebook.jpg" class="img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-6 col-12">
@@ -198,11 +198,11 @@
 
                                     <div class="row">
                                         <div class="col-lg-6 col-12 mb-3">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/portrait-mature-smiling-authoress-sitting-desk.jpg" class="scrollspy-example-item-image img-fluid" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/typewriter.jpg" class="scrollspy-example-item-image img-fluid" alt="">
                                         </div>
 
                                         <div class="col-lg-6 col-12 mb-3">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/businessman-sitting-by-table-cafe.jpg" class="scrollspy-example-item-image img-fluid" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/young-woman.jpg" class="scrollspy-example-item-image img-fluid" alt="">
                                         </div>
                                     </div>
 
@@ -219,7 +219,7 @@
 
                                     <div class="row align-items-center">
                                         <div class="col-lg-6 col-12">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/tablet-screen-contents.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/tablet-ebook.jpg" class="img-fluid" alt="">
                                         </div>
 
                                         <div class="col-lg-6 col-12">
@@ -239,7 +239,7 @@
 
                                     <p>You are not allowed to redistribute this template ZIP file on any other template collection website. Please contact TemplateMo for more information.</p>
 
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/portrait-mature-smiling-authoress-sitting-desk.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/writing.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="">
 
                                     <p>You may want to contact us for more information about this template.</p>
                                 </div>
@@ -270,13 +270,13 @@
                     <div class="row">
 
                         <div class="col-lg-6 col-12">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/portrait-mature-smiling-authoress-sitting-desk.jpg" class="author-image img-fluid" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/dr-anna.jpg" class="author-image img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-6 col-12 mt-5 mt-lg-0">
                             <h6>Meet Author</h6>
 
-                            <h2 class="mb-4">Prof. Sophia</h2>
+                            <h2 class="mb-4">Dr. Anna</h2>
 
                             <p>This is an ebook landing page template with Bootstrap 5 CSS framework. It is easy to customize with the use of Bootstrap CSS classes.</p>
 
