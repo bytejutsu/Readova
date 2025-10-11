@@ -3,14 +3,14 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #E76F51;
-  --secondary-color:              #E9C46A;
+  --primary-color:                #6D986E;
+  --secondary-color:              #D9B76C;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #F4A261;
-  --custom-btn-bg-hover-color:    #E76F51;
+  --custom-btn-bg-color:          #6D986E;
+  --custom-btn-bg-hover-color:    #B19746;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --link-hover-color:             #E76F51;
+  --link-hover-color:             #6D986E;
 
   --body-font-family:             'Unbounded', sans-serif;
 
@@ -758,13 +758,29 @@ strong {
   AUTHOR SECTION            
 -----------------------------------------*/
 .author-section {
-  background-image: url('../images/circle-scatter-haikei.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left bottom;
   position: relative;
   margin-top: 50px;
+  overflow: hidden;
 }
+
+.author-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/low-poly-grid.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  transform: scaleX(-1);
+  transform-origin: center;
+  z-index: 0;
+}
+
+.author-section > * {
+  position: relative;
+  z-index: 1;
+}
+
 
 .author-image {
   border: 10px solid var(--secondary-color);

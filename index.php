@@ -270,13 +270,13 @@
                     <div class="row">
 
                         <div class="col-lg-6 col-12">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/dr-anna.jpg" class="author-image img-fluid" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/male-writer.jpg" class="author-image img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-6 col-12 mt-5 mt-lg-0">
                             <h6>Meet Author</h6>
 
-                            <h2 class="mb-4">Dr. Anna</h2>
+                            <h2 class="mb-4">James Smith</h2>
 
                             <p>This is an ebook landing page template with Bootstrap 5 CSS framework. It is easy to customize with the use of Bootstrap CSS classes.</p>
 
