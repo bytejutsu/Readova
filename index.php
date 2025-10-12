@@ -7,7 +7,7 @@
         <meta name="author" content="">
         <?php wp_head(); ?>
     </head>
-    
+
     <body>
         <main>
             <nav class="navbar navbar-expand-lg">
@@ -23,17 +23,17 @@
                             <span>Download</span><!-- duplicated another one below for mobile -->
                         </a>
                     </div>
-    
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-    
+
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-auto me-lg-4">
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="#section_1">Home</a>
                             </li>
-    
+
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="#section_2">The Book</a>
                             </li>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </nav>
-            
+
 
             <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
                 <div class="container">
@@ -382,7 +382,7 @@
             <section class="contact-section section-padding" id="section_5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-12">
+                        <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center text-center">
                             <div class="">
                                 <h6 class="mt-5">Send us a message</h6>
                                 <h2 class="mb-4">Contact</h2>
@@ -420,7 +420,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-12 mx-auto">
+                        <div class="col-lg-5 col-12 mx-auto">
                             <form class="custom-form ebook-download-form bg-secondary-custom shadow" action="#" method="post" role="form">
                                 <div class="text-center mb-5">
                                     <h2 class="mb-1">Get your free ebook</h2>
