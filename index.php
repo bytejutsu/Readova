@@ -278,10 +278,10 @@
                         <div class="col-md-4 mb-4">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/john.jpg" class="avatar-image  rounded-circle mb-3" alt="Client Avatar">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/john.jpg" class="avatar  rounded-circle mb-3" alt="Client Avatar">
                                     <h5 class="card-title">John Doe</h5>
                                     <p class="card-text text-muted">CEO, Company Inc.</p>
-                                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed
+                                    <p class="card-text truncate-3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed
                                         dapibus leo nec ornare diam."</p>
                                     <div class="text-warning">
                                         <i class="bi bi-star-fill"></i>
@@ -297,10 +297,10 @@
                         <div class="col-md-4 mb-4">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/christina.jpg" class="avatar-image rounded-circle mb-3" alt="Client Avatar">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/christina.jpg" class="avatar rounded-circle mb-3" alt="Client Avatar">
                                     <h5 class="card-title">Jane Smith</h5>
                                     <p class="card-text text-muted">Marketing Director, Agency XYZ</p>
-                                    <p class="card-text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                    <p class="card-text truncate-3">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                                         accusantium doloremque laudantium."</p>
                                     <div class="text-warning">
                                         <i class="bi bi-star-fill"></i>
@@ -316,10 +316,10 @@
                         <div class="col-md-4 mb-4">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/steven.jpg" class="avatar-image rounded-circle mb-3" alt="Client Avatar">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/steven.jpg" class="avatar rounded-circle mb-3" alt="Client Avatar">
                                     <h5 class="card-title">Mike Johnson</h5>
                                     <p class="card-text text-muted">Freelance Designer</p>
-                                    <p class="card-text">"At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                    <p class="card-text truncate-3">"At vero eos et accusamus et iusto odio dignissimos ducimus qui
                                         blanditiis praesentium voluptatum."</p>
                                     <div class="text-warning">
                                         <i class="bi bi-star-fill"></i>
