@@ -136,9 +136,7 @@
 
                                 <h2 class="mb-4">About The Book</h2>
 
-                                <p>Credit goes to <a rel="nofollow" href="https://freepik.com" target="_blank">FreePik</a> for images used in this ebook landing page template. You may browse FreePik to download more free images for your website.</p>
-
-                                <p>TemplateMo is one of the best websites to download free CSS templates for any purpose. This is an ebook landing page template using Bootstrap 5 CSS layout.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est natus sapiente sit? Adipisci, amet, animi aperiam autem beatae dolores earum enim eos, in laboriosam laborum laudantium nulla numquam quia reprehenderit..</p>
                             </div>
                         </div>
 
@@ -165,17 +163,16 @@
 
                                     <blockquote class="blockquote">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito</blockquote>
 
-                                    <p>When you need free HTML CSS templates, please visit Templatemo website which provides a variety of templates.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores officiis quos sint voluptate voluptatibus.</p>
+
                                 </div>
 
                                 <div class="scrollspy-example-item" id="item-2">
-                                    <h5>Win back your time</h5>
+                                    <h5>How to manage your time</h5>
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
                                     <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus elementum, tempor risus vel, condimentum orci.</p>
-
-                                    <p>You are not allowed to redistribute this template ZIP file on any other template collection website. Please contact TemplateMo for more information.</p>
 
                                     <div class="row">
                                         <div class="col-lg-6 col-12 mb-3">
@@ -187,14 +184,13 @@
                                         </div>
                                     </div>
 
-                                    <p>If you need some specific CSS templates, you can Google with keywords such as templatemo gallery, templatemo digital marketing, etc.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                                 </div>
 
                                 <div class="scrollspy-example-item" id="item-3">
-                                    <h5>Work less, do more</h5>
+                                    <h5>Pradigm Shift</h5>
 
-                                    <p>Credit goes to <a rel="nofollow" href="https://freepik.com" target="_blank">FreePik</a> for images used in this ebook landing page template. You may browse FreePik to download more free images for your website.</p>
-                                    <p>This is a second paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
 
                                     <p>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt ut labore.</p>
 
@@ -204,7 +200,7 @@
                                         </div>
 
                                         <div class="col-lg-6 col-12">
-                                            <p>Modern ebook ever</p>
+                                            <p>Modern ebook</p>
 
                                             <p><strong>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt.</strong></p>
                                         </div>
@@ -212,31 +208,22 @@
                                 </div>
 
                                 <div class="scrollspy-example-item" id="item-4">
-                                    <h5>Delegate</h5>
+                                    <h5>Time Management Matrix</h5>
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
                                     <p>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt ut labore.</p>
 
-                                    <p>You are not allowed to redistribute this template ZIP file on any other template collection website. Please contact TemplateMo for more information.</p>
-
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/writing.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="">
-
-                                    <p>You may want to contact us for more information about this template.</p>
                                 </div>
 
                                 <div class="scrollspy-example-item" id="item-5">
-                                    <h5>Habits</h5>
+                                    <h5>Micro Habits</h5>
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-                                    <p>You are not allowed to redistribute this template ZIP file on any other template collection website. Please contact TemplateMo for more information.</p>
-
-                                    <p><strong>What is Free CSS Templates?</strong> Free CSS Templates are a variety of ready-made web pages designed for different kinds of websites.</p>
-
                                     <blockquote class="blockquote">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito</blockquote>
 
-                                    <p>You may browse TemplateMo website for more CSS templates. Thank you for visiting our website.</p>
                                 </div>
                             </div>
                         </div>
@@ -244,10 +231,10 @@
                             <nav class="timeline-container">
                                 <nav class="nav-pills timeline">
                                     <a class="nav-link smoothscroll" href="#item-1">Introduction</a>
-                                    <a class="nav-link smoothscroll" href="#item-2">Chapter 1: <strong>Win back your time</strong></a>
-                                    <a class="nav-link smoothscroll" href="#item-3">Chapter 2: <strong>Work less, do more</strong></a>
-                                    <a class="nav-link smoothscroll" href="#item-4">Chapter 3: <strong>Delegate</strong></a>
-                                    <a class="nav-link smoothscroll" href="#item-5">Chapter 4: <strong>Habits</strong></a>
+                                    <a class="nav-link smoothscroll" href="#item-2">Chapter 1: <strong>How to manage your time</strong></a>
+                                    <a class="nav-link smoothscroll" href="#item-3">Chapter 2: <strong>Paradigm Shift</strong></a>
+                                    <a class="nav-link smoothscroll" href="#item-4">Chapter 3: <strong>Time Management Matrix</strong></a>
+                                    <a class="nav-link smoothscroll" href="#item-5">Chapter 4: <strong>Micro Habits</strong></a>
                                 </nav>
                             </nav>
                         </div>
@@ -270,8 +257,6 @@
 
                             <h2 class="mb-4">James Smith</h2>
 
-                            <p>This is an ebook landing page template with Bootstrap 5 CSS framework. It is easy to customize with the use of Bootstrap CSS classes.</p>
-
                             <p>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt ut labore.</p>
                         </div>
 
@@ -285,91 +270,64 @@
                     <div class="row">
 
                         <div class="col-lg-12 col-12 text-center mb-5">
-                            <h6>Reviews</h6>
+                            <h6>Testimonials</h6>
 
-                            <h2>What people saying...</h2>
+                            <h2>What others say</h2>
                         </div>
 
-                        <div class="col-lg-4 col-12">
-                            <div class="custom-block d-flex flex-wrap">
-                                <div class="custom-block-image-wrap d-flex flex-column">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg" class="img-fluid avatar-image" alt="">
-
-                                    <div class="text-center mt-3">
-                                        <span class="text-white">Sandy</span>
-
-                                        <strong class="d-block text-white">Artist</strong>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/john.jpg" class="avatar-image  rounded-circle mb-3" alt="Client Avatar">
+                                    <h5 class="card-title">John Doe</h5>
+                                    <p class="card-text text-muted">CEO, Company Inc.</p>
+                                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed
+                                        dapibus leo nec ornare diam."</p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
                                     </div>
-                                </div>
-
-                                <div class="custom-block-info">
-                                    <div class="reviews-group mb-3">
-                                        <strong>4.5</strong>
-
-                                        <i class="bi-star-fill"></i>
-                                        <i class="bi-star-fill"></i>
-                                        <i class="bi-star-fill"></i>
-                                        <i class="bi-star-fill"></i>
-                                        <i class="bi-star"></i>
-                                    </div>
-
-                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-12 my-5 my-lg-0">
-                            <div class="custom-block d-flex flex-wrap">
-                                <div class="custom-block-image-wrap d-flex flex-column">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/portrait-young-redhead-bearded-male.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
-
-                                    <div class="text-center mt-3">
-                                        <span class="text-white">John</span>
-
-                                        <strong class="d-block text-white">Producer</strong>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/christina.jpg" class="avatar-image rounded-circle mb-3" alt="Client Avatar">
+                                    <h5 class="card-title">Jane Smith</h5>
+                                    <p class="card-text text-muted">Marketing Director, Agency XYZ</p>
+                                    <p class="card-text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                        accusantium doloremque laudantium."</p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
                                     </div>
-                                </div>
-
-                                <div class="custom-block-info">
-                                    <div class="reviews-group mb-3">
-                                        <strong>3.5</strong>
-
-                                        <i class="bi-star-fill"></i>
-                                        <i class="bi-star-fill"></i>
-                                        <i class="bi-star-fill"></i>
-                                        <i class="bi-star"></i>
-                                        <i class="bi-star"></i>
-                                    </div>
-
-                                    <p class="mb-0">If you need some specific CSS templates, you can Google with keywords such as templatemo one-page, templatemo portfolio, etc.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-12">
-                            <div class="custom-block d-flex flex-wrap">
-                                <div class="custom-block-image-wrap d-flex flex-column">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/pretty-blonde-woman.jpg" class="img-fluid avatar-image" alt="">
-
-                                    <div class="text-center mt-3">
-                                        <span class="text-white">Candy</span>
-
-                                        <strong class="d-block text-white">VP, Design</strong>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/steven.jpg" class="avatar-image rounded-circle mb-3" alt="Client Avatar">
+                                    <h5 class="card-title">Mike Johnson</h5>
+                                    <p class="card-text text-muted">Freelance Designer</p>
+                                    <p class="card-text">"At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                        blanditiis praesentium voluptatum."</p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
                                     </div>
-                                </div>
-
-                                <div class="custom-block-info">
-                                    <div class="reviews-group mb-3">
-                                        <strong>5</strong>
-
-                                        <i class="bi-star-fill"></i>
-                                        <i class="bi-star-fill"></i>
-                                        <i class="bi-star-fill"></i>
-                                        <i class="bi-star-fill"></i>
-                                        <i class="bi-star-fill"></i>
-                                    </div>
-
-                                    <p class="mb-0">Please tell your friends about our website that we provide 100% free CSS templates for everyone. Thank you for using our templates.</p>
                                 </div>
                             </div>
                         </div>
