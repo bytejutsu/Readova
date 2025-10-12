@@ -382,9 +382,46 @@
             <section class="contact-section section-padding" id="section_5">
                 <div class="container">
                     <div class="row">
-
-                        <div class="col-lg-5 col-12 mx-auto">
-                            <form class="custom-form ebook-download-form bg-white shadow" action="#" method="post" role="form">
+                        <div class="col-lg-6 col-12">
+                            <div class="">
+                                <h6 class="mt-5">Send us a message</h6>
+                                <h2 class="mb-4">Contact</h2>
+                                <p class="mb-3">
+                                    <i class="bi-geo-alt me-2"></i>
+                                    Berlin, Germany
+                                </p>
+                                <p class="mb-2">
+                                    <a href="tel: 010-020-0340" class="contact-link">
+                                        012-345-678
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="mailto:info@author.com" class="contact-link">
+                                        info@author.com
+                                    </a>
+                                </p>
+                                <h6 class="site-footer-title mt-5 mb-3">Find us on</h6>
+                                <ul class="social-icon mb-4">
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-instagram"></a>
+                                    </li>
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-twitter"></a>
+                                    </li>
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-facebook"></a>
+                                    </li>
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-whatsapp"></a>
+                                    </li>
+                                </ul>
+                                <p class="copyright-text">Copyright © 2025
+                                    <br><br><a rel="nofollow" href="#" target="_blank">Readova</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 mx-auto">
+                            <form class="custom-form ebook-download-form bg-secondary-custom shadow" action="#" method="post" role="form">
                                 <div class="text-center mb-5">
                                     <h2 class="mb-1">Get your free ebook</h2>
                                 </div>
@@ -412,53 +449,6 @@
                                 </div>
                             </form>
                         </div>
-
-                        <div class="col-lg-6 col-12">
-                            <h6 class="mt-5">Say hi and talk to us</h6>
-
-                            <h2 class="mb-4">Contact</h2>
-
-                            <p class="mb-3">
-                                <i class="bi-geo-alt me-2"></i>
-                                London, United Kingdom
-                            </p>
-
-                            <p class="mb-2">
-                                <a href="tel: 010-020-0340" class="contact-link">
-                                    010-020-0340
-                                </a>
-                            </p>
-
-                            <p>
-                                <a href="mailto:info@company.com" class="contact-link">
-                                    info@company.com
-                                </a>
-                            </p>
-
-                            <h6 class="site-footer-title mt-5 mb-3">Social</h6>
-
-                            <ul class="social-icon mb-4">
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-instagram"></a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-twitter"></a>
-                                </li>
-                                
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-facebook"></a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-whatsapp"></a>
-                                </li>
-                            </ul>
-
-                            <p class="copyright-text">Copyright © 2048 ebook company
-                            <br><br><a rel="nofollow" href="https://templatemo.com" target="_blank">designed by templatemo</a></p>
-                        </div>
-
                     </div>
                 </div>
             </section>

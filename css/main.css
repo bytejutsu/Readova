@@ -10,7 +10,7 @@
   --custom-btn-bg-hover-color:    #B19746;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --link-hover-color:             #6D986E;
+  --link-hover-color:             #002D66;
   --site-footer-bg-color:         #002D66;
 
   --body-font-family:             'Unbounded', sans-serif;
@@ -876,13 +876,9 @@ strong {
 .contact-section::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 450px 450px 0 0;
-  border-color: var(--white-color) transparent transparent;
+  inset: 0;
+  background: var(--white-color);
+  clip-path: polygon(100% 0, 100% 100%, 30% 100%); /* shallower diagonal */
   pointer-events: none;
 }
 
@@ -919,7 +915,7 @@ strong {
   CUSTOM FORM               
 -----------------------------------------*/
 .custom-form .form-control {
-  border-radius: var(--border-radius-large);
+  border-radius: var(--border-radius-medium);
   box-shadow: none;
   color: var(--p-color);
   padding-top: 13px;
@@ -927,6 +923,7 @@ strong {
   padding-right: 40px;
   padding-left: 20px;
   outline: none;
+
 }
 
 .custom-form .form-control:focus,
@@ -1008,8 +1005,12 @@ strong {
 }
 
 .social-icon-link:hover {
-  background: var(--primary-color);
+  background: var(--site-footer-bg-color);
   color: var(--white-color);
+}
+
+.bg-secondary-custom {
+  background-color: var(--secondary-color) !important;
 }
 
 
