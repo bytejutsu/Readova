@@ -553,6 +553,10 @@ strong {
   top: 0;
 }
 
+.hero-section .col-lg-6 {
+  overflow: visible;
+}
+
 /* remove unnecessary padding */
 @media screen and (min-width: 991px) {
   .hero-section {
@@ -563,18 +567,50 @@ strong {
 
 .hero-floating-image {
   position: relative;
-  bottom: -100px; /* pushes it down */
-  z-index: 2;
+  bottom: -150px;
+  z-index: 3;
   display: block;
   margin: 0 auto;
-  transition: transform 0.4s ease, bottom 0.4s ease;
+  transition: transform 0.4s ease;
+  filter: drop-shadow(0 30px 25px rgba(0, 0, 0, 0.35));
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+    filter: drop-shadow(0 30px 25px rgba(0, 0, 0, 0.35));
+  }
+  50% {
+    transform: translateY(-20px);
+    filter: drop-shadow(0 15px 20px rgba(0, 0, 0, 0.25));
+  }
+}
+
+/* hero text and buttons */
+
+.hero-section .col-lg-6.col-12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-section h1 {
+  margin-bottom: 3rem;
+}
+
+.hero-section h6 {
+  margin-bottom: 3rem;
+}
+
+.hero-section .btn + .btn {
+  margin-left: 1rem; /* horizontal spacing between buttons */
 }
 
 /* Optional: subtle floating animation */
 .hero-floating-image:hover {
   transform: translateY(-10px);
 }
-
 
 /*---------------------------------------
   FEATURED              

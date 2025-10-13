@@ -42,7 +42,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_4">Reviews</a>
+                                <a class="nav-link click-scroll" href="#section_4">Testimonials</a>
                             </li>
 
                             <li class="nav-item">
@@ -78,9 +78,7 @@
                 </div>
             </div>
 
-
             <section class="py-lg-5"></section>
-
 
             <section class="book-section section-padding" id="section_2">
                 <div class="container">
@@ -102,7 +100,6 @@
                     </div>
                 </div>
             </section>
-
 
             <section>
                 <div class="container">
@@ -202,7 +199,6 @@
                 </div>
             </section>
 
-
             <section class="author-section section-padding" id="section_3">
                 <div class="container">
                     <div class="row">
@@ -222,7 +218,6 @@
                     </div>
                 </div>
             </section>
-
 
             <section class="reviews-section section-padding" id="section_4">
                 <div class="container">
@@ -294,7 +289,6 @@
                     </div>
                 </div>
             </section>
-
 
             <section class="contact-section section-padding" id="section_5">
                 <div class="container">
