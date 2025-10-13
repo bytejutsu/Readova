@@ -14,9 +14,8 @@
                 <div class="container">
                     <a class="navbar-brand" href="#">
                         <i class="navbar-brand-icon bi-book me-2"></i>
-                        <span>ebook</span>
+                        <span>Readova</span>
                     </a>
-
                     <div class="d-lg-none ms-auto me-3">
                         <a href="#" class="btn custom-btn custom-border-btn btn-naira btn-inverted">
                             <i class="btn-icon bi-cloud-download"></i>
@@ -61,61 +60,23 @@
                 </div>
             </nav>
 
-
-            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-6 col-12 mb-5 pb-5 pb-lg-0 mb-lg-0">
-
-                            <h6>Introducing ebook</h6>
-
-                            <h1 class="text-white mb-4">ebook landing page for professionals</h1>
-
-                            <a href="#section_2" class="btn custom-btn smoothscroll me-3">Discover More</a>
-
-                            <a href="#section_3" class="link link--kale smoothscroll">Meet the Author</a>
+            <div class="hero-section" id="section_1">
+                <div class="container text-lg-end text-center">
+                    <div class="row justify-content-end align-items-center">
+                        <div class="col-lg-6 d-none d-lg-block">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/education-online-books.png" class="hero-floating-image img-fluid" alt="education online books">
                         </div>
-
-                        <div class="hero-image-wrap col-lg-6 col-12 mt-3 mt-lg-0">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/education-online-books.png" class="hero-image img-fluid" alt="education online books">
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-
-            <section class="featured-section">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-8 col-12">
-                            <div class="avatar-group d-flex flex-wrap align-items-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg" class="img-fluid avatar-image" alt="">
-
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/portrait-young-redhead-bearded-male.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
-
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/pretty-blonde-woman.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
-
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend.jpg" class="img-fluid avatar-image avatar-image-left" alt="">
-
-                                <div class="reviews-group mt-3 mt-lg-0">
-                                    <strong>4.5</strong>
-
-                                    <i class="bi-star-fill"></i>
-                                    <i class="bi-star-fill"></i>
-                                    <i class="bi-star-fill"></i>
-                                    <i class="bi-star-fill"></i>
-                                    <i class="bi-star"></i>
-
-                                    <small class="ms-3">2,564 reviews</small>
-                                </div>
+                        <div class="col-lg-6 col-12">
+                            <h1>Welcome to the hero’s space</h1>
+                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ratione.</h6>
+                            <div>
+                                <a href="#section_2" class="btn custom-btn btn-lg smoothscroll me-2">Explore More</a>
+                                <a href="#section_3" class="btn custom-border-btn smoothscroll">Meet the Author</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
 
             <section class="py-lg-5"></section>
@@ -124,11 +85,6 @@
             <section class="book-section section-padding" id="section_2">
                 <div class="container">
                     <div class="row">
-
-                        <div class="col-lg-6 col-12">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/ebook.jpg" class="img-fluid" alt="">
-                        </div>
-
                         <div class="col-lg-6 col-12">
                             <div class="book-section-info">
                                 <h6>Modern &amp; Creative</h6>
@@ -140,6 +96,9 @@
                             </div>
                         </div>
 
+                        <div class="col-lg-6 col-12">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/ebook.jpg" class="img-fluid" alt="">
+                        </div>
                     </div>
                 </div>
             </section>
@@ -253,7 +212,7 @@
                         </div>
 
                         <div class="col-lg-6 col-12 mt-5 mt-lg-0">
-                            <h6>Meet Author</h6>
+                            <h6>Meet The Author</h6>
 
                             <h2 class="mb-4">James Smith</h2>
 
@@ -381,7 +340,7 @@
                         <div class="col-lg-5 col-12 mx-auto">
                             <form class="custom-form ebook-download-form bg-secondary-custom shadow" action="#" method="post" role="form">
                                 <div class="text-center mb-5">
-                                    <h2 class="mb-1">Get your free ebook</h2>
+                                    <h2 class="mb-1">Download the ebook</h2>
                                 </div>
 
                                 <div class="ebook-download-form-body">
@@ -402,7 +361,7 @@
                                     </div>
 
                                     <div class="col-lg-8 col-md-10 col-8 mx-auto">
-                                        <button type="submit" class="form-control">Download ebook</button>
+                                        <button type="submit" class="form-control">Download</button>
                                     </div>
                                 </div>
                             </form>

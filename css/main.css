@@ -7,7 +7,7 @@
   --secondary-color:              #D9B76C;
   --section-bg-color:             #f0f8ff;
   --custom-btn-bg-color:          #6D986E;
-  --custom-btn-bg-hover-color:    #B19746;
+  --custom-btn-bg-hover-color:    #002D66;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --link-hover-color:             #002D66;
@@ -141,47 +141,6 @@ strong {
 /*---------------------------------------
   AVATAR IMAGE               
 -----------------------------------------*/
-.avatar-image {
-  border: 4px solid var(--white-color);
-  border-radius: 100px;
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-}
-
-.avatar-image-left {
-  position: relative;
-  left: -10px;
-}
-
-.avatar-image-left + .avatar-image-left {
-  left: -20px;
-}
-
-.avatar-image-left + .avatar-image-left + .avatar-image-left {
-  left: -30px;
-}
-
-.avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left {
-  left: -40px;
-}
-
-.avatar-group,
-.reviews-group {
-  position: relative;
-  z-index: 22;
-}
-
-.reviews-group {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.reviews-group strong {
-  font-size: var(--h3-font-size);
-  margin-right: 10px;
-}
-
 .avatar {
   width: 100px;
   height: 100px;
@@ -420,14 +379,14 @@ strong {
 }
 
 .sticky-wrapper.is-sticky .navbar {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: var(--secondary-color)
 }
 
 .navbar {
-  background: transparent;
+  background: var(--secondary-color);
   z-index: 99;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
 
 .navbar-brand,
@@ -439,7 +398,7 @@ strong {
 }
 
 .navbar-brand-icon {
-  background: var(--secondary-color);
+  background: var(--site-footer-bg-color);
   border-radius: var(--border-radius-large);
   display: inline-block;
   vertical-align: top;
@@ -557,7 +516,7 @@ strong {
 
 
 /*---------------------------------------
-  HERO        
+  HERO
 -----------------------------------------*/
 .hero-section {
   background-image: url('../images/writer.jpg');
@@ -565,39 +524,55 @@ strong {
   background-size: cover;
   background-position: center;
   position: relative;
-  padding-top: 50px;
+  min-height: 100vh; /* full height */
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: flex-end; /* move content to the right */
+  color: #fff;
+  overflow: visible;
 }
 
 .hero-section::after {
   content: "";
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  inset: 0; /* shorthand for top, right, bottom, left */
   pointer-events: none;
   background-color: rgba(0, 0, 0, 0.45);
+  z-index: 1;
 }
 
+/* container + row positioning */
+.hero-section .container,
 .hero-section .row {
   position: relative;
-  z-index: 22;
-  top: 100px;
-}
-
-.hero-image {
-  position: relative;
   z-index: 2;
-  bottom: 100px;
-  display: block;
-  margin: auto;
 }
 
+/* remove top offset */
+.hero-section .row {
+  top: 0;
+}
+
+/* remove unnecessary padding */
 @media screen and (min-width: 991px) {
   .hero-section {
-    height: calc(90vh - 88px);
-    padding-top: 350px;
+    height: 90vh;
+    padding-top: 0;
   }
+}
+
+.hero-floating-image {
+  position: relative;
+  bottom: -100px; /* pushes it down */
+  z-index: 2;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.4s ease, bottom 0.4s ease;
+}
+
+/* Optional: subtle floating animation */
+.hero-floating-image:hover {
+  transform: translateY(-10px);
 }
 
 
@@ -615,15 +590,14 @@ strong {
   content: "";
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0; /* Move to the left side */
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 0 450px 450px;
-  border-color: transparent transparent var(--white-color) transparent;
+  border-width: 0 450px 450px 0; /* Mirror the cut */
+  border-color: transparent var(--white-color) transparent transparent; /* Adjust color sides */
   pointer-events: none;
 }
-
 
 /*---------------------------------------
   CUSTOM BLOCK              
