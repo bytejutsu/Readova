@@ -13,9 +13,9 @@
   --link-hover-color:             #002D66;
   --site-footer-bg-color:         #002D66;
 
-  --body-font-family: 'Poiret One', sans-serif;
-  --heading-font-family: 'Didact Gothic', serif;
-  --blockquote-font-family: 'GFS Neohellenic', serif;
+  --heading-font-family: 'Poiret One', sans-serif;
+  --body-font-family: 'Didact Gothic', serif;
+  --blockquote-font-family: 'Poiret One', serif;
 
 
   --h1-font-size:                 72px;
@@ -58,13 +58,16 @@ h6 {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
   font-weight: var(--font-weight-semibold);
   font-family: var(--heading-font-family);
+}
+
+h2 {
+  font-weight: var(--font-weight-semibold);
 }
 
 h1 {
@@ -87,6 +90,7 @@ h4 {
 
 h5 {
   font-size: var(--h5-font-size);
+  font-family: var(--body-font-family);
 }
 
 h6 {
@@ -395,6 +399,7 @@ strong {
 
 .navbar-brand,
 .navbar-brand:hover {
+  font-family: var(--heading-font-family);
   font-size: var(--h3-font-size);
   font-weight: var(--font-weight-bold);
   display: block;
@@ -603,8 +608,10 @@ strong {
   margin-bottom: 3rem;
 }
 
-.hero-section h6 {
+.hero-section p {
   margin-bottom: 3rem;
+  color: var(--secondary-color);
+  font-size: var(--h6-font-size);
 }
 
 .hero-section .btn + .btn {

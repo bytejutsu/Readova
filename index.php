@@ -68,7 +68,7 @@
                         </div>
                         <div class="col-lg-6 col-12">
                             <h1>Welcome to the hero’s space</h1>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ratione.</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ratione.</p>
                             <div>
                                 <a href="#section_2" class="btn custom-btn btn-lg smoothscroll me-2">Explore More</a>
                                 <a href="#section_3" class="btn custom-border-btn smoothscroll">Meet the Author</a>
