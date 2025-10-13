@@ -2,7 +2,7 @@
 
 function readova_scripts() {
     // --- Styles ---
-    wp_enqueue_style('readova-fonts','https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600;700&display=swap', array(), null);
+    wp_enqueue_style('readova-fonts',get_template_directory_uri() . '/css/fonts.css', array(), null);
     wp_enqueue_style('readova-bootstrap-css', get_template_directory_uri() . '/css/bootstrap.min.css', array(), null);
     wp_enqueue_style('readova-bootstrap-icons-css', get_template_directory_uri() . '/css/bootstrap-icons.css', array(), null);
     wp_enqueue_style('readova-main-css', get_template_directory_uri() . '/css/main.css');
