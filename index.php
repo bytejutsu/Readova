@@ -66,8 +66,8 @@
                         <div class="col-lg-6 d-none d-lg-block">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/education-online-books.png" class="hero-floating-image img-fluid" alt="education online books">
                         </div>
-                        <div class="col-lg-6 col-12">
-                            <h1>Welcome to the hero’s space</h1>
+                        <div class="col-lg-6 col-12 mt-lg-4">
+                            <h1 class="">Welcome to the hero’s space</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ratione.</p>
                             <div>
                                 <a href="#section_2" class="btn custom-btn btn-lg smoothscroll me-2">Explore More</a>
@@ -295,7 +295,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center text-center">
                             <div class="">
-                                <h6 class="mt-5">Send us a message</h6>
+                                <h6 class="mt-5">Let's get in touch</h6>
                                 <h2 class="mb-4">Contact</h2>
                                 <p class="mb-3">
                                     <i class="bi-geo-alt me-2"></i>
