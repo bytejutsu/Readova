@@ -724,7 +724,7 @@ strong {
 .timeline-container {
   height: 100vh;
   position: sticky;
-  top: 100px;
+  top: 150px;
 }
 
 /* Base nav style */
