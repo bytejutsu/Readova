@@ -295,23 +295,28 @@
                     <div class="row">
                         <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center text-center">
                             <div class="">
-                                <h6 class="mt-5">Let's get in touch</h6>
-                                <h2 class="mb-4">Contact</h2>
-                                <p class="mb-3">
-                                    <i class="bi-geo-alt me-2"></i>
-                                    Berlin, Germany
-                                </p>
-                                <p class="mb-2">
-                                    <a href="tel: 010-020-0340" class="contact-link">
-                                        012-345-678
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="mailto:info@author.com" class="contact-link">
-                                        info@author.com
-                                    </a>
-                                </p>
-                                <h6 class="site-footer-title mt-5 mb-3">Find us on</h6>
+                                <div class="text-center py-5 px-4">
+                                    <h6 class="mb-2">Let's get in touch</h6>
+                                    <h2 class="mb-4">Contact</h2>
+
+                                    <div class="contact-details">
+                                        <p class="mb-3">
+                                            <i class="bi bi-geo-alt-fill me-2"></i>
+                                            Berlin, Germany
+                                        </p>
+                                        <p class="mb-2">
+                                            <i class="bi bi-telephone-fill me-2"></i>
+                                            <a href="tel:012-345-678" class="contact-link">012-345-678</a>
+                                        </p>
+                                        <p>
+                                            <i class="bi bi-envelope-fill me-2"></i>
+                                            <a href="mailto:info@author.com" class="contact-link">
+                                                info@author.com
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <h6 class="site-footer-title mt-1 mb-3">Find us on</h6>
                                 <ul class="social-icon mb-4">
                                     <li class="social-icon-item">
                                         <a href="#" class="social-icon-link bi-instagram"></a>
