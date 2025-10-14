@@ -71,7 +71,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ratione.</p>
                             <div>
                                 <a href="#section_2" class="btn custom-btn btn-lg smoothscroll me-2">Explore More</a>
-                                <a href="#section_3" class="btn custom-border-btn smoothscroll">Meet the Author</a>
+                                <a href="#section_3" class="btn custom-btn custom-border-btn smoothscroll">Meet the Author</a>
                             </div>
                         </div>
                     </div>
