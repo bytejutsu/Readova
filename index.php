@@ -30,23 +30,19 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-auto me-lg-4">
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
                             </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_2">The Book</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_3">Author</a>
-                            </li>
-
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="#section_4">Testimonials</a>
                             </li>
-
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                                <a class="nav-link click-scroll" href="#section_3">Author</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">The Book</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
                             </li>
                         </ul>
 
@@ -85,10 +81,9 @@
                     <div class="row">
                         <div class="col-lg-6 col-12">
                             <div class="book-section-info">
-                                <h6>Modern &amp; Creative</h6>
+                                <h6>A little bit of history</h6>
 
-
-                                <h2 class="mb-4">About The Book</h2>
+                                <h2 class="mb-4">Why I decided to write this book?</h2>
 
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est natus sapiente sit? Adipisci, amet, animi aperiam autem beatae dolores earum enim eos, in laboriosam laborum laudantium nulla numquam quia reprehenderit..</p>
                             </div>
@@ -105,17 +100,17 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-12 text-center">
-                            <h6>What's inside?</h6>
-                            <h2 class="mb-5">Preview at glance</h2>
+                            <h6>A sneak peak?</h6>
+                            <h2 class="mb-5">Quick Preview</h2>
                         </div>
                         <div class="col-lg-8 col-12">
                             <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
                                 <div class="scrollspy-example-item" id="item-1">
-                                    <h5>Introducing ebook</h5>
+                                    <h5>Introduction</h5>
 
-                                    <p>This ebook landing page is good to use for any purpose. This layout is based on Bootstrap 5 CSS framework.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, omnis.</p>
 
-                                    <p><strong>What is Content Marketing?</strong> If you are wondering what content marketing is all about, this is the place to start.</p>
+                                    <p><strong>Lorem ipsum dolor sit amet?</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
                                     <blockquote class="blockquote">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito</blockquote>
 
@@ -131,12 +126,8 @@
                                     <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus elementum, tempor risus vel, condimentum orci.</p>
 
                                     <div class="row">
-                                        <div class="col-lg-6 col-12 mb-3">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/typewriter.jpg" class="scrollspy-example-item-image img-fluid" alt="">
-                                        </div>
-
-                                        <div class="col-lg-6 col-12 mb-3">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/young-woman.jpg" class="scrollspy-example-item-image img-fluid" alt="">
+                                        <div class="col-lg-12 col-12 mb-3">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/girl-reading.jpg" class="scrollspy-example-item-image img-fluid" alt="">
                                         </div>
                                     </div>
 
@@ -150,17 +141,9 @@
 
                                     <p>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt ut labore.</p>
 
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6 col-12">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/tablet-ebook.jpg" class="img-fluid" alt="">
-                                        </div>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/typewriter-illustration.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="">
 
-                                        <div class="col-lg-6 col-12">
-                                            <p>Modern ebook</p>
 
-                                            <p><strong>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt.</strong></p>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div class="scrollspy-example-item" id="item-4">
@@ -170,7 +153,7 @@
 
                                     <p>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt ut labore.</p>
 
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/writing.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/pattern.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="">
                                 </div>
 
                                 <div class="scrollspy-example-item" id="item-5">
@@ -319,16 +302,16 @@
                                 <h6 class="site-footer-title mt-1 mb-3">Find us on</h6>
                                 <ul class="social-icon mb-4">
                                     <li class="social-icon-item">
-                                        <a href="#" class="social-icon-link bi-instagram"></a>
+                                        <a href="#" class="social-icon-link bi-facebook"></a>
                                     </li>
                                     <li class="social-icon-item">
                                         <a href="#" class="social-icon-link bi-twitter"></a>
                                     </li>
                                     <li class="social-icon-item">
-                                        <a href="#" class="social-icon-link bi-facebook"></a>
+                                        <a href="#" class="social-icon-link bi-whatsapp"></a>
                                     </li>
                                     <li class="social-icon-item">
-                                        <a href="#" class="social-icon-link bi-whatsapp"></a>
+                                        <a href="#" class="social-icon-link bi-instagram"></a>
                                     </li>
                                 </ul>
                                 <p class="copyright-text">Copyright © 2025
@@ -339,7 +322,7 @@
                         <div class="col-lg-5 col-12 mx-auto">
                             <form class="custom-form ebook-download-form bg-secondary-custom shadow" action="#" method="post" role="form">
                                 <div class="text-center mb-5">
-                                    <h2 class="mb-1">Download the ebook</h2>
+                                    <h2 class="mb-1">Get the ebook</h2>
                                 </div>
 
                                 <div class="ebook-download-form-body">

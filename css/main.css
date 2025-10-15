@@ -393,7 +393,7 @@ strong {
 .navbar {
   background: var(--secondary-color);
   z-index: 99;
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 0px;
 }
 
@@ -820,6 +820,12 @@ strong {
 }
 
 .scrollspy-example-item-image {
+  width: 100%;              /* Fit the column width */
+  height: auto;             /* Keep aspect ratio */
+  max-height: 80vh;         /* Don't exceed 80% of the viewport height */
+  object-fit: contain;      /* Scale image without cropping */
+  display: block;           /* Removes inline gaps below image */
+  margin: 0 auto;           /* Center the image horizontally if smaller */
   border-radius: var(--border-radius-medium);
 }
 
