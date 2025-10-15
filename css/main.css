@@ -1038,7 +1038,7 @@ strong {
   background: var(--secondary-color);
   border-radius: var(--border-radius-large);
   color: var(--white-color);
-  font-size: var(--copyright-font-size);
+  font-size: var(--btn-font-size);
   display: block;
   margin-right: 10px;
   text-align: center;

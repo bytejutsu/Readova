@@ -302,7 +302,9 @@
                                 <h6 class="site-footer-title mt-1 mb-3">Find us on</h6>
                                 <ul class="social-icon mb-4">
                                     <li class="social-icon-item">
-                                        <a href="#" class="social-icon-link bi-facebook"></a>
+                                        <a href="#" class="social-icon-link">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
                                     </li>
                                     <li class="social-icon-item">
                                         <a href="#" class="social-icon-link">
@@ -310,10 +312,24 @@
                                         </a>
                                     </li>
                                     <li class="social-icon-item">
-                                        <a href="#" class="social-icon-link bi-whatsapp"></a>
+                                        <a href="#" class="social-icon-link">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                        </a>
                                     </li>
                                     <li class="social-icon-item">
-                                        <a href="#" class="social-icon-link bi-instagram"></a>
+                                        <a href="#" class="social-icon-link">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link">
+                                            <i class="fa-brands fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link">
+                                            <i class="fa-brands fa-youtube"></i>
+                                        </a>
                                     </li>
                                 </ul>
                                 <p class="copyright-text">Copyright © 2025
