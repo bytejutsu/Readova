@@ -74,7 +74,13 @@
                 </div>
             </div>
 
-            <section class="py-lg-5"></section>
+            <section class="diagonal-section">
+                <svg class="diagonal-bg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+                    <polygon points="0,0 100,0 100,42.265 0,100" />
+                </svg>
+            </section>
+
+<!--            <section class="py-lg-5"></section>-->
 
             <section class="book-section section-padding" id="section_2">
                 <div class="container">
@@ -370,7 +376,6 @@
                 </div>
             </section>
         </main>
-
         <?php wp_footer(); ?>
     </body>
 </html>
