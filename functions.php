@@ -6,6 +6,7 @@ function readova_scripts() {
     wp_enqueue_style('readova-bootstrap-css', get_template_directory_uri() . '/css/bootstrap.min.css', array(), null);
     wp_enqueue_style('readova-bootstrap-icons-css', get_template_directory_uri() . '/css/bootstrap-icons.css', array(), null);
     wp_enqueue_style('readova-font-awesome-css', get_template_directory_uri() . '/fontawesome/css/all.min.css', array(), '7.1.10');
+    wp_enqueue_style('readova-aos-css', get_template_directory_uri() . '/css/aos.css', array(), null);
     wp_enqueue_style('readova-main-css', get_template_directory_uri() . '/css/main.css');
 
     // --- Dequeue WordPress' built-in jQuery ---
@@ -26,7 +27,8 @@ function readova_scripts() {
     wp_enqueue_script('readova-bootstrap-js', get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array('jquery'), null, true);
     wp_enqueue_script('readova-sticky-js', get_template_directory_uri() . '/js/jquery.sticky.js', array('jquery'), null, true);
     wp_enqueue_script('readova-click-scroll-js', get_template_directory_uri() . '/js/click-scroll.js', array('jquery'), null, true);
-    wp_enqueue_style('readova-font-awesome-js', get_template_directory_uri() . '/fontawesome/js/all.js', array(), '7.1.10');
+    wp_enqueue_script('readova-font-awesome-js', get_template_directory_uri() . '/fontawesome/js/all.js', array(), '7.1.10');
+    wp_enqueue_script('readova-aos-js', get_template_directory_uri() . '/js/aos.js', array(), true);
     wp_enqueue_script('readova-custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery'), null, true);
 
 }

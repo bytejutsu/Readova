@@ -27,6 +27,18 @@
         }, 300);
       }
     });
+
+    // INIT AOS (Animate On Scroll)
+    $(document).ready(function () {
+      if (typeof AOS !== 'undefined') {
+        AOS.init({
+          duration: 800,       // animation duration in ms
+          easing: 'ease-in-out', // easing function
+          once: true,          // animation only once per element
+          mirror: false        // don't animate on scroll up
+        });
+      }
+    });
   
   })(window.jQuery);
 

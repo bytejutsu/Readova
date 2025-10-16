@@ -629,7 +629,7 @@ strong {
 .diagonal-section {
   position: relative;
   overflow: hidden;
-  height: 250px;
+  height: 120px;
   background: var(--white-color);
 }
 
@@ -644,29 +644,6 @@ strong {
 
 .diagonal-section .diagonal-bg polygon {
   fill: var(--primary-color);
-}
-
-/*---------------------------------------
-  FEATURED              
------------------------------------------*/
-.featured-section {
-  background-color: var(--custom-btn-bg-color);
-  position: relative;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.featured-section::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0; /* Move to the left side */
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 450px 450px 0; /* Mirror the cut */
-  border-color: transparent var(--white-color) transparent transparent; /* Adjust color sides */
-  pointer-events: none;
 }
 
 /*---------------------------------------

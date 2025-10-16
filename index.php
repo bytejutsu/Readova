@@ -97,7 +97,7 @@
                             <blockquote class="initial-blockquote mb-0">
                                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Kengan omeg kohm tokito.”
                             </blockquote>
-                            <p class="mb-0">-- John Doe</p>
+                            <p class="mb-0">John Doe</p>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                         </div>
 
                         <div class="col-lg-6 col-12">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/ebook.jpg" class="img-fluid" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/ebook.jpg" class="img-fluid" alt="" data-aos="fade-left">
                         </div>
                     </div>
                 </div>
@@ -210,7 +210,7 @@
                 </div>
             </section>
 
-            <section class="author-section section-padding" id="section_3">
+            <section class="author-section section-padding" id="section_3" data-aos="fade-up-right">
                 <div class="container">
                     <div class="row">
 
@@ -240,7 +240,7 @@
                             <h2>What others say</h2>
                         </div>
 
-                        <div class="col-md-4 mb-4">
+                        <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="500">
                             <div class="card">
                                 <div class="card-body text-center">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/john.jpg" class="avatar  rounded-circle mb-3" alt="Client Avatar">
@@ -259,7 +259,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 mb-4">
+                        <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="1000">
                             <div class="card">
                                 <div class="card-body text-center">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/christina.jpg" class="avatar rounded-circle mb-3" alt="Client Avatar">
@@ -278,7 +278,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 mb-4">
+                        <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="1500">
                             <div class="card">
                                 <div class="card-body text-center">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/steven.jpg" class="avatar rounded-circle mb-3" alt="Client Avatar">
@@ -365,7 +365,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-12 mx-auto">
+                        <div class="col-lg-5 col-12 mx-auto" data-aos="zoom-in-up">
                             <form class="custom-form ebook-download-form bg-secondary-custom shadow" action="#" method="post" role="form">
                                 <div class="text-center mb-5">
                                     <h2 class="mb-1">Get the ebook</h2>
