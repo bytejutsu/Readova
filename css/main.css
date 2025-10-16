@@ -882,6 +882,24 @@ strong {
 
 
 /*---------------------------------------
+  Initial Blockquote
+-----------------------------------------*/
+
+.initial-blockquote {
+  background: var(--section-bg-color);
+  border-radius: var(--border-radius-small);
+  font-size: var(--h5-font-size);
+  color: var(--site-footer-bg-color);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 40px 40px 40px 40px;
+  text-align: center;
+  font-family: var(--blockquote-font-family);
+  font-weight: var(--font-weight-semibold);
+  font-style: italic;
+}
+
+/*---------------------------------------
   AUTHOR SECTION            
 -----------------------------------------*/
 .author-section {

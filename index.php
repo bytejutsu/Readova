@@ -80,7 +80,29 @@
                 </svg>
             </section>
 
-<!--            <section class="py-lg-5"></section>-->
+            <section id="bestseller" class="py-5">
+                <div class="container text-center">
+                    <div class="row justify-content-center mb-2">
+                        <div class="col-12 col-lg-4">
+                            <img
+                                    src="<?php echo get_template_directory_uri(); ?>/images/NYT_bestseller_badge.png"
+                                    alt="bestseller badge"
+                                    class="img-fluid bestseller-img"
+                            >
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-8">
+                            <blockquote class="initial-blockquote mb-0">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Kengan omeg kohm tokito.”
+                            </blockquote>
+                            <p class="mb-0">-- John Doe</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 
             <section class="book-section section-padding" id="section_2">
                 <div class="container">
