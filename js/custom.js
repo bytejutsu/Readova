@@ -39,6 +39,28 @@
         });
       }
     });
+
+    // ---- TYPED.JS ----
+    if (typeof Typed !== 'undefined' && $('#initial-blockquote').length) {
+      const blockquote = $('#initial-blockquote');
+
+      new Typed('#initial-blockquote', {
+        strings: [
+          '“The only way to do great work is to love what you do.”'
+        ],
+        typeSpeed: 60,
+        backSpeed: 30,
+        startDelay: 500,
+        backDelay: 1500,
+        loop: true,
+        smartBackspace: true,
+        showCursor: true,
+        cursorChar: '|',
+        onBegin: function () {
+          blockquote.addClass('is-typing');
+        }
+      });
+    }
   
   })(window.jQuery);
 

@@ -94,10 +94,8 @@
 
                     <div class="row justify-content-center">
                         <div class="col-12 col-lg-8">
-                            <blockquote class="initial-blockquote mb-0">
-                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Kengan omeg kohm tokito.”
-                            </blockquote>
-                            <p class="mb-0">John Doe</p>
+                            <blockquote class="initial-blockquote mb-0" id="initial-blockquote"></blockquote>
+                            <p class="mb-0">– Steve Jobs</p>
                         </div>
                     </div>
                 </div>

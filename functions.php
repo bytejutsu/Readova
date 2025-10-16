@@ -29,7 +29,8 @@ function readova_scripts() {
     wp_enqueue_script('readova-click-scroll-js', get_template_directory_uri() . '/js/click-scroll.js', array('jquery'), null, true);
     wp_enqueue_script('readova-font-awesome-js', get_template_directory_uri() . '/fontawesome/js/all.js', array(), '7.1.10');
     wp_enqueue_script('readova-aos-js', get_template_directory_uri() . '/js/aos.js', array(), true);
-    wp_enqueue_script('readova-custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery'), null, true);
+    wp_enqueue_script('readova-typed-js', get_template_directory_uri() . '/js/typed.umd.js', array(), true);
+    wp_enqueue_script('readova-custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery','readova-aos-js','readova-typed-js'), null, true);
 
 }
 
