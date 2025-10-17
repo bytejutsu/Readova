@@ -60,7 +60,7 @@
                 <div class="container text-lg-end text-center">
                     <div class="row justify-content-end align-items-center">
                         <div class="col-lg-6 d-none d-lg-block">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/education-online-books.png" class="hero-floating-image img-fluid" alt="education online books">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/tablet-ebook-cover.png" class="hero-floating-image img-fluid" alt="tablet ebook cover">
                         </div>
                         <div class="col-lg-6 col-12 mt-lg-4">
                             <h1 class="">Welcome to the hero’s space</h1>
@@ -114,7 +114,7 @@
                         </div>
 
                         <div class="col-lg-6 col-12">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/ebook.jpg" class="img-fluid" alt="" data-aos="fade-left">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/reading-ebook.jpg" class="img-fluid" alt="person reading ebook" data-aos="fade-left">
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
 
                                     <div class="row">
                                         <div class="col-lg-12 col-12 mb-3">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/girl-reading.jpg" class="scrollspy-example-item-image img-fluid" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/girl-reading.jpg" class="scrollspy-example-item-image img-fluid" alt="girl reading">
                                         </div>
                                     </div>
 
@@ -165,7 +165,7 @@
 
                                     <p>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt ut labore.</p>
 
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/typewriter-illustration.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/typewriter-illustration.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="typewriter illustration">
 
 
                                 </div>
@@ -177,7 +177,7 @@
 
                                     <p>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt ut labore.</p>
 
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/pattern.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/pattern.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="pattern">
                                 </div>
 
                                 <div class="scrollspy-example-item" id="item-5">
@@ -202,7 +202,6 @@
                             </nav>
                         </div>
                     </div>
-
                 </div>
             </section>
 
@@ -239,7 +238,7 @@
                         <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="500">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/john.jpg" class="avatar  rounded-circle mb-3" alt="Client Avatar">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/person/john.jpg" class="avatar  rounded-circle mb-3" alt="Male Reviewer">
                                     <h5 class="card-title">John Doe</h5>
                                     <p class="card-text text-muted">CEO, Company Inc.</p>
                                     <p class="card-text truncate-3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed
@@ -258,7 +257,7 @@
                         <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="1000">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/christina.jpg" class="avatar rounded-circle mb-3" alt="Client Avatar">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/person/christina.jpg" class="avatar rounded-circle mb-3" alt="Female Reviewer">
                                     <h5 class="card-title">Jane Smith</h5>
                                     <p class="card-text text-muted">Marketing Director, Agency XYZ</p>
                                     <p class="card-text truncate-3">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -277,7 +276,7 @@
                         <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="1500">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/avatar/steven.jpg" class="avatar rounded-circle mb-3" alt="Client Avatar">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/Person/steven.jpg" class="avatar rounded-circle mb-3" alt="Male Reviewer">
                                     <h5 class="card-title">Mike Johnson</h5>
                                     <p class="card-text text-muted">Freelance Designer</p>
                                     <p class="card-text truncate-3">"At vero eos et accusamus et iusto odio dignissimos ducimus qui
