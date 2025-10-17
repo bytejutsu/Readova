@@ -630,12 +630,12 @@ strong {
 
 .separator{
   position: relative;
-  z-index: 3; /* higher than .hero-section::after (1) and content (2) */
+  z-index: 3;
   width: 0;
   height: 0;
   border-right: 100vw solid transparent;
   border-bottom: 6vw solid var(--white-color);
-  margin-top: -6vw;
+  margin-top: -5.8vw;
 }
 
 /*---------------------------------------
