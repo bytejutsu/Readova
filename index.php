@@ -83,7 +83,7 @@
                     <div class="row justify-content-center mb-2">
                         <div class="col-12 col-lg-4">
                             <img
-                                    src="<?php echo get_template_directory_uri(); ?>/images/NYT_bestseller_badge.png"
+                                    src="<?php echo get_template_directory_uri(); ?>/images/nytbs.png"
                                     alt="bestseller badge"
                                     class="img-fluid bestseller-img"
                             >
