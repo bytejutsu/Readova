@@ -615,10 +615,6 @@ strong {
   font-size: var(--h6-font-size);
 }
 
-.hero-section .btn + .btn {
-  margin-left: 1rem; /* horizontal spacing between buttons */
-}
-
 /* Optional: subtle floating animation */
 .hero-floating-image:hover {
   transform: translateY(-10px);
@@ -826,7 +822,9 @@ strong {
   padding-bottom: 20px;
 }
 
-/* Blockquote */
+/*---------------------------------------
+  Blockquote
+-----------------------------------------*/
 
 .blockquote {
   background: var(--section-bg-color);

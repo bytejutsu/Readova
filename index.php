@@ -64,10 +64,10 @@
                         </div>
                         <div class="col-lg-6 col-12 mt-lg-4">
                             <h1 class="">Welcome to the hero’s space</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ratione.</p>
-                            <div>
-                                <a href="#section_2" class="btn custom-btn btn-lg smoothscroll me-2">Explore More</a>
-                                <a href="#section_3" class="btn custom-btn custom-border-btn smoothscroll">Meet the Author</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="">
+                                <a href="#section_2" class="btn custom-btn btn-lg smoothscroll me-lg-2 my-1">Explore More</a>
+                                <a href="#section_3" class="btn custom-btn custom-border-btn smoothscroll my-1">Meet the Author</a>
                             </div>
                         </div>
                     </div>
