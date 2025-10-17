@@ -56,7 +56,7 @@
                 </div>
             </nav>
 
-            <div class="hero-section" id="section_1">
+            <section class="hero-section" id="section_1">
                 <div class="container text-lg-end text-center">
                     <div class="row justify-content-end align-items-center">
                         <div class="col-lg-6 d-none d-lg-block">
@@ -72,13 +72,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <section class="diagonal-section">
-                <svg class="diagonal-bg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-                    <polygon points="0,0 100,0 100,42.265 0,100" />
-                </svg>
             </section>
+
+            <div class="separator"></div>
+
+            <div class="pt-lg-5"></div>
 
             <section id="bestseller" class="py-5">
                 <div class="container text-center">

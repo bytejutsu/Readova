@@ -554,7 +554,6 @@ strong {
 .hero-section .container,
 .hero-section .row {
   position: relative;
-  z-index: 2;
 }
 
 /* remove top offset */
@@ -576,8 +575,8 @@ strong {
 
 .hero-floating-image {
   position: relative;
-  bottom: -150px;
-  z-index: 3;
+  bottom: -100px;
+  z-index: 4;
   display: block;
   margin: 0 auto;
   transition: transform 0.4s ease;
@@ -602,6 +601,8 @@ strong {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  z-index: 2;
 }
 
 /*.hero-section h1 {*/
@@ -624,26 +625,17 @@ strong {
 }
 
 /*---------------------------------------
-  DIAGONAL SECTION
+  SEPARATOR SECTION
 -----------------------------------------*/
-.diagonal-section {
+
+.separator{
   position: relative;
-  overflow: hidden;
-  height: 120px;
-  background: var(--white-color);
-}
-
-.diagonal-section .diagonal-bg {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
-  pointer-events: none;
-}
-
-.diagonal-section .diagonal-bg polygon {
-  fill: var(--primary-color);
+  z-index: 3; /* higher than .hero-section::after (1) and content (2) */
+  width: 0;
+  height: 0;
+  border-right: 100vw solid transparent;
+  border-bottom: 6vw solid var(--white-color);
+  margin-top: -6vw;
 }
 
 /*---------------------------------------
