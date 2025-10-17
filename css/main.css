@@ -866,7 +866,29 @@ strong {
   font-family: var(--blockquote-font-family);
   font-weight: var(--font-weight-semibold);
   font-style: italic;
+  line-height: 1.6;
+  min-height: calc( (1.6em * 4) + 80px );
 }
+
+@media screen and (min-width: 350px) {
+  .initial-blockquote {
+    min-height: calc( (1.6em * 4) + 80px );
+  }
+}
+
+
+@media screen and (min-width: 440px) {
+  .initial-blockquote {
+    min-height: calc( (1.6em * 3) + 80px );
+  }
+}
+
+@media screen and (min-width: 740px) {
+  .initial-blockquote {
+    min-height: calc( (1.6em * 2) + 80px );
+  }
+}
+
 /*---------------------------------------
   AUTHOR SECTION            
 -----------------------------------------*/
