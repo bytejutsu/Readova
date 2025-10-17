@@ -826,6 +826,8 @@ strong {
   padding-bottom: 20px;
 }
 
+/* Blockquote */
+
 .blockquote {
   background: var(--section-bg-color);
   border-radius: var(--border-radius-small);
@@ -849,6 +851,43 @@ strong {
   display: block;
 }
 
+@media screen and (min-width: 0px) {
+  .blockquote {
+    font-size: var(--copyright-font-size);
+  }
+  .blockquote::before {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .blockquote {
+    font-size: var(--p-font-size);
+  }
+  .blockquote::before {
+    font-size: 100px;
+  }
+}
+
+
+@media screen and (min-width: 440px) {
+  .blockquote {
+    font-size: var(--h6-font-size);
+  }
+  .blockquote::before {
+    font-size: 150px;
+  }
+}
+
+@media screen and (min-width: 740px) {
+  .blockquote {
+    font-size: var(--h5-font-size);
+  }
+  .blockquote::before {
+    font-size: 200px;
+  }
+}
+
 
 /*---------------------------------------
   Initial Blockquote
@@ -866,13 +905,22 @@ strong {
   font-family: var(--blockquote-font-family);
   font-weight: var(--font-weight-semibold);
   font-style: italic;
+
   line-height: 1.6;
   min-height: calc( (1.6em * 4) + 80px );
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 0px) {
   .initial-blockquote {
     min-height: calc( (1.6em * 4) + 80px );
+    font-size: var(--copyright-font-size);
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .initial-blockquote {
+    min-height: calc( (1.6em * 3) + 80px );
+    font-size: var(--p-font-size);
   }
 }
 
@@ -880,12 +928,14 @@ strong {
 @media screen and (min-width: 440px) {
   .initial-blockquote {
     min-height: calc( (1.6em * 3) + 80px );
+    font-size: var(--h6-font-size);
   }
 }
 
 @media screen and (min-width: 740px) {
   .initial-blockquote {
     min-height: calc( (1.6em * 2) + 80px );
+    font-size: var(--h5-font-size);
   }
 }
 
