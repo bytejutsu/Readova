@@ -206,7 +206,7 @@
                 </div>
             </section>
 
-            <section class="author-section section-padding" id="section_3" data-aos="fade-up-right">
+            <section class="author-section section-padding" id="section_3">
                 <div class="container">
                     <div class="row">
 
