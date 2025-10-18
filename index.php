@@ -126,7 +126,7 @@
                         </div>
                         <div class="col-lg-8 col-12">
                             <div class="book-content" data-bs-spy="scroll" data-bs-target="#timelineNav" data-bs-offset="150" tabindex="0">
-                                <div class="scrollspy-example-item" id="item-1">
+                                <div class="scrollspy-item" id="item-1">
                                     <h5>Introduction</h5>
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, omnis.</p>
@@ -139,7 +139,7 @@
 
                                 </div>
 
-                                <div class="scrollspy-example-item" id="item-2">
+                                <div class="scrollspy-item" id="item-2">
                                     <h5>How to manage your time</h5>
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -148,36 +148,36 @@
 
                                     <div class="row">
                                         <div class="col-lg-12 col-12 mb-3">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/girl-reading.jpg" class="scrollspy-example-item-image img-fluid" alt="girl reading">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/girl-reading.jpg" class="scrollspy-item-image img-fluid" alt="girl reading">
                                         </div>
                                     </div>
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                                 </div>
 
-                                <div class="scrollspy-example-item" id="item-3">
+                                <div class="scrollspy-item" id="item-3">
                                     <h5>Pradigm Shift</h5>
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
 
                                     <p>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt ut labore.</p>
 
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/typewriter-illustration.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="typewriter illustration">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/typewriter-illustration.jpg" class="scrollspy-item-image img-fluid mb-3" alt="typewriter illustration">
 
 
                                 </div>
 
-                                <div class="scrollspy-example-item" id="item-4">
+                                <div class="scrollspy-item" id="item-4">
                                     <h5>Time Management Matrix</h5>
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
                                     <p>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt ut labore.</p>
 
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/pattern.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="pattern">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/pattern.jpg" class="scrollspy-item-image img-fluid mb-3" alt="pattern">
                                 </div>
 
-                                <div class="scrollspy-example-item" id="item-5">
+                                <div class="scrollspy-item" id="item-5">
                                     <h5>Micro Habits</h5>
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

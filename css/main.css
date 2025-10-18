@@ -567,13 +567,8 @@ strong {
 
 
 /*---------------------------------------
-  THE BOOK SECTION            
+  TIMELINE SIDE NAV
 -----------------------------------------*/
-.book-section-info {
-  padding-top: 40px;
-  padding-right: 40px;
-  padding-left: 40px;
-}
 
 /* Container to make it scrollable */
 .timeline-container {
@@ -616,7 +611,7 @@ strong {
   transition: all 0.3s ease;
 }
 
-/* Add circle marker for each link */
+/* Default marker (empty circle) */
 .nav-pills.timeline .nav-link::before {
   content: "";
   position: absolute;
@@ -625,10 +620,10 @@ strong {
   transform: translateY(-50%);
   width: 14px;
   height: 14px;
-  background: var(--primary-color, #007bff);
+  background: #fff; /* empty by default */
   border-radius: 50%;
-  border: 3px solid #fff;
-  box-shadow: 0 0 0 2px var(--primary-color, #007bff);
+  border: 3px solid var(--primary-color, #007bff); /* colored border */
+  box-shadow: none;
   z-index: 1;
 }
 
@@ -642,16 +637,28 @@ strong {
 .nav-pills.timeline .nav-link.active {
   background: var(--primary-color, #007bff);
   color: #fff;
-  font-weight: bold;
 }
 
-/* Highlight active timeline marker */
+/* Highlight active timeline marker (the outer ring) */
 .nav-pills.timeline .nav-link.active::before {
   background: #fff; /* circle color inside */
+  border-color: #fff; /* Ensure border matches background for glow effect */
   box-shadow: 0 0 0 2px var(--white-color, #fff), 0 0 0 5px var(--primary-color, #007bff);
 }
 
-/* Highlight active marker */
+/* Inner dot for active marker */
+.nav-pills.timeline .nav-link.active::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--primary-color, #007bff);
+  z-index: 2; /* On top of the ::before element */
+}
 
 /* Scrollbar styling (optional) */
 .timeline-container::-webkit-scrollbar {
@@ -665,24 +672,27 @@ strong {
   background: #eee;
 }
 
-
-.scrollspy-example-2 {
-  padding-right: 30px;
-  padding-left: 30px;
+/*---------------------------------------
+  THE BOOK SECTION
+-----------------------------------------*/
+.book-section-info {
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
-.scrollspy-example-item {
+.scrollspy-item {
   border-bottom: 1px solid var(--primary-color);
   min-height: 500px;
   padding-top: 20px;
   padding-bottom: 50px;
 }
 
-.scrollspy-example-item:last-child {
+.scrollspy-item:last-child {
   border-bottom: 0;
 }
 
-.scrollspy-example-item-image {
+.scrollspy-item-image {
   width: 100%;              /* Fit the column width */
   height: auto;             /* Keep aspect ratio */
   max-height: 80vh;         /* Don't exceed 80% of the viewport height */
@@ -692,7 +702,7 @@ strong {
   border-radius: var(--border-radius-medium);
 }
 
-.scrollspy-example-item h5 {
+.scrollspy-item h5 {
   padding-top: 30px;
   padding-bottom: 20px;
 }
@@ -1039,11 +1049,11 @@ strong {
     padding: 0;
   }
 
-  .scrollspy-example-2 .scrollspy-example-item:first-child {
+  .scrollspy-example-2 .scrollspy-item:first-child {
     padding-top: 0;
   }
 
-  .scrollspy-example-item h5 {
+  .scrollspy-item h5 {
     padding-bottom: 5px;
   }
 
