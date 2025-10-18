@@ -234,7 +234,7 @@
                             <h2>What others say</h2>
                         </div>
 
-                        <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="500">
+                        <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="300">
                             <div class="card">
                                 <div class="card-body text-center">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/person/john.jpg" class="avatar  rounded-circle mb-3" alt="Male Reviewer">
@@ -253,7 +253,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="1000">
+                        <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="800">
                             <div class="card">
                                 <div class="card-body text-center">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/person/christina.jpg" class="avatar rounded-circle mb-3" alt="Female Reviewer">
@@ -272,7 +272,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="1500">
+                        <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="1300">
                             <div class="card">
                                 <div class="card-body text-center">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/Person/steven.jpg" class="avatar rounded-circle mb-3" alt="Male Reviewer">
