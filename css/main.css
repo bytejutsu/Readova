@@ -39,6 +39,10 @@
   --font-weight-bold:             700;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--white-color);
   font-family: var(--body-font-family); 
@@ -632,6 +636,19 @@ strong {
 .nav-pills.timeline .nav-link:hover {
   background: var(--primary-color, #007bff);
   color: var(--white-color, #fff);
+}
+
+/* Highlight active timeline link */
+.nav-pills.timeline .nav-link.active {
+  background: var(--primary-color, #007bff);
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Highlight active timeline marker */
+.nav-pills.timeline .nav-link.active::before {
+  background: #fff; /* circle color inside */
+  box-shadow: 0 0 0 2px var(--white-color, #fff), 0 0 0 5px var(--primary-color, #007bff);
 }
 
 /* Highlight active marker */

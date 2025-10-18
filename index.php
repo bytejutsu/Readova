@@ -8,7 +8,7 @@
         <?php wp_head(); ?>
     </head>
 
-    <body>
+    <body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="88" tabindex="0">
         <main>
             <nav class="navbar navbar-expand-lg fixed-top">
                 <div class="container">
@@ -27,19 +27,19 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-auto me-lg-4">
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                                <a class="nav-link" href="#section_1">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_2">The Book</a>
+                                <a class="nav-link" href="#section_2">The Book</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_3">Author</a>
+                                <a class="nav-link" href="#section_3">Author</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_4">Testimonials</a>
+                                <a class="nav-link" href="#section_4">Testimonials</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                                <a class="nav-link" href="#section_5">Contact</a>
                             </li>
                         </ul>
 
@@ -125,7 +125,7 @@
                             <h2 class="mb-5">Quick Preview</h2>
                         </div>
                         <div class="col-lg-8 col-12">
-                            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                            <div class="book-content" data-bs-spy="scroll" data-bs-target="#timelineNav" data-bs-offset="150" tabindex="0">
                                 <div class="scrollspy-example-item" id="item-1">
                                     <h5>Introduction</h5>
 
@@ -189,18 +189,20 @@
                         </div>
                         <div class="col-lg-4 col-12">
                             <nav class="timeline-container">
-                                <nav class="nav-pills timeline">
-                                    <a class="nav-link smoothscroll" href="#item-1">Introduction</a>
-                                    <a class="nav-link smoothscroll" href="#item-2">Chapter 1: <strong>How to manage your time</strong></a>
-                                    <a class="nav-link smoothscroll" href="#item-3">Chapter 2: <strong>Paradigm Shift</strong></a>
-                                    <a class="nav-link smoothscroll" href="#item-4">Chapter 3: <strong>Time Management Matrix</strong></a>
-                                    <a class="nav-link smoothscroll" href="#item-5">Chapter 4: <strong>Micro Habits</strong></a>
+                                <nav class="nav-pills timeline" id="timelineNav">
+                                    <a class="nav-link" href="#item-1">Introduction</a>
+                                    <a class="nav-link" href="#item-2">Chapter 1: <strong>How to manage your time</strong></a>
+                                    <a class="nav-link" href="#item-3">Chapter 2: <strong>Paradigm Shift</strong></a>
+                                    <a class="nav-link" href="#item-4">Chapter 3: <strong>Time Management Matrix</strong></a>
+                                    <a class="nav-link" href="#item-5">Chapter 4: <strong>Micro Habits</strong></a>
                                 </nav>
                             </nav>
                         </div>
                     </div>
                 </div>
             </section>
+
+
 
             <section class="author-section section-padding" id="section_3">
                 <div class="container">
