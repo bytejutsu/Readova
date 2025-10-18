@@ -326,42 +326,48 @@ strong {
   padding-bottom: 0px;
 }
 
-.navbar-brand {
-  position: relative;
-  display: inline-block;
+.navbar-brand,
+.navbar-brand:hover {
   font-family: var(--heading-font-family);
   font-size: var(--h3-font-size);
   font-weight: var(--font-weight-bold);
+  display: block;
   color: var(--white-color);
-  transition: color 0.3s ease;
-  overflow: visible;
-  text-decoration: none;
 }
 
-.navbar-brand::before {
+.navbar-brand-icon {
+  background: var(--site-footer-bg-color);
+  border-radius: var(--border-radius-large);
+  display: inline-block;
+  vertical-align: top;
+  color: var(--white-color);
+  font-size: var(--h6-font-size);
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.navbar-brand-icon::after {
   content: "";
   position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(-15%, -50%);
-  width: 1em;
-  height: 1em;
-  background-color: var(--site-footer-bg-color);
-  border-radius: 50%;
   z-index: -1;
+  top: 10px;
+  right: -5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 20px 20px;
+  border-color: transparent transparent var(--secondary-color) transparent;
+  pointer-events: none;
+  transform: rotate(65deg);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
   border-radius: var(--border-radius-large);
   margin: 10px;
   padding: 10px;
-}
-
-.navbar-brand:hover,
-.navbar-brand:focus,
-.navbar-brand:active {
-  color: var(--white-color) !important;
-  text-decoration: none;
 }
 
 .navbar-nav .nav-link {
@@ -451,7 +457,7 @@ strong {
   HERO
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/library.jpg');
+  background-image: url('../images/writer.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1013,6 +1019,10 @@ strong {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.65);
+  }
 
   .navbar-expand-lg .navbar-nav {
     padding-bottom: 20px;
@@ -1056,6 +1066,16 @@ strong {
 
   .navbar-brand {
     font-size: var(--p-font-size);
+  }
+
+  .navbar-brand-icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .navbar-brand-icon::after {
+    top: 5px;
   }
 
   .btn-naira > span, 
